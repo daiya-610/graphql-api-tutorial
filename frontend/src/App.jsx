@@ -1,6 +1,4 @@
-import { gql } from "@apollo/client";
-import { useQuery } from '@apollo/client';
-import { useState } from 'react'
+import { gql, useQuery } from "@apollo/client";
 import './App.css'
 
 const BOOKS = gql`
